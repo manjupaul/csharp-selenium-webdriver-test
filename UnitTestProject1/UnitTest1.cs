@@ -40,12 +40,7 @@ namespace UnitTestProject1
             Assert.IsTrue(driver.PageSource.Contains("Current page is 1"));
 
         }
-        [TestCleanup]
-        public void TestCleanup()
-        {
-            driver.Close();
-           
-        }
+       
 
 
     }
